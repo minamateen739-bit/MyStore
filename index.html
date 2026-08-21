@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MyStore🛒</title>
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Main CSS File -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <script src="script.js"></script>
+
+  <!-- Top Announcement Banner -->
+  <div class="top-banner">
+    <span><i class="fa-solid fa-truck-fast"></i> <em>Free shipping</em> on orders above 2500 PKR</span>
+    <a href="#" class="order-btn">Order Now</a>
+  </div>
+
+
+<!-- Top Scrolling Ticker Bar -->
+<div class="top-ticker-bar">
+  <div class="ticker-content">
+    <span><i class="fa-solid fa-sparkles"></i> Choose Better, Live Better — Premium Fashion & Lifestyle Essentials!</span>
+    <span><i class="fa-solid fa-truck-fast"></i> Free Delivery on orders over 2500 PKR</span>
+    <span><i class="fa-solid fa-tag"></i> Special Discount: Get 5% OFF on your first order!</span>
+  </div>
+</div>
+
+
+<!-- Header Section -->
+<header class="navbar">
+  <a href="index.html" class="logo-design-1">
+    <span class="brand-first">MY</span>
+    <span class="brand-second">STORE</span>
+  </a>
+  
+  <div class="search-box">
+  <i class="fa-solid fa-magnifying-glass search-icon"></i>
+  <input type="text" placeholder="Search products...">
+</div>
+  
+  <nav class="nav-links">
+    <a href="index.html">Home</a>
+    
+    <!-- Working Shop Dropdown -->
+    <div class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn">Shop <i class="fa-solid fa-chevron-down" style="font-size: 12px; margin-left: 3px;"></i></a>
+      <div class="dropdown-content">
+        <a href="clothing.html">Clothing</a>
+        <a href="handbags.html">Handbags</a>
+        <a href="jewelry.html">Jewelry</a>
+      </div>
+    </div>
+
+    <a href="#" class="cart-btn">Cart (0)</a>
+  </nav>
+</header>
+
+  <!-- Hero Banner -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Big Sale! Up to 20% Off</h1>
+      <p>Discover our latest collection today</p>
+      <button class="btn-primary">Shop Now</button>
+    </div>
+    <div class="hero-image">
+      <img src="download (1).png" alt="3D Shopping Store Banner">
+    </div>
+  </section>
+
+  <!-- Trust Badges / Features Bar -->
+  <div class="features-bar">
+    <div class="feature-item"><i class="fa-solid fa-truck"></i> Free Shipping</div>
+    <div class="feature-item"><i class="fa-solid fa-arrows-rotate"></i> Easy Returns</div>
+    <div class="feature-item"><i class="fa-solid fa-shield-halved"></i> Secure COD</div>
+    <div class="feature-item"><i class="fa-solid fa-headset"></i> 24/7 Support</div>
+  </div>
+<!-- Featured Products Section -->
+<section class="section">
+  <h2 class="section-title">Featured Products</h2>
+  <div class="products-grid">
+    
+    <!-- Product Card 1 -->
+    <div class="product-card" data-category="clothing">
+      <div class="product-img">
+        <img src="image9.png" alt="Embroidered Kurti" width="200" height="200">
+      </div>
+      <h3 class="product-title">Embroidered Kurti</h3>
+      <p class="product-price">Rs. 2,500</p>
+      
+      <!-- Updated Buttons -->
+      <div class="card-buttons" style="display: flex; gap: 8px; margin-top: 10px;">
+        <button class="btn-secondary add-to-cart" style="flex: 1; cursor: pointer;">Add to Cart</button>
+        <button class="btn-primary buy-now-btn" style="flex: 1; cursor: pointer;">Buy Now</button>
+      </div>
+    </div>
+
+    <!-- Product Card 2 -->
+    <div class="product-card" data-category="clothing">
+      <div class="product-img">
+        <img src="image10.png" alt="Casual T-Shirt" width="200" height="200">
+      </div>
+      <h3 class="product-title">Casual T-Shirt</h3>
+      <p class="product-price">Rs. 1,200</p>
+      
+      <!-- Updated Buttons -->
+      <div class="card-buttons" style="display: flex; gap: 8px; margin-top: 10px;">
+        <button class="btn-secondary add-to-cart" style="flex: 1; cursor: pointer;">Add to Cart</button>
+        <button class="btn-primary buy-now-btn" style="flex: 1; cursor: pointer;">Buy Now</button>
+      </div>
+    </div>
+
+    <!-- Product Card 3 -->
+    <div class="product-card" data-category="jewelry">
+      <div class="product-img">
+        <img src="image16.png" alt="Silver Necklace" width="200" height="200">
+      </div>
+      <h3 class="product-title">Silver Necklace</h3>
+      <p class="product-price">Rs. 3,500</p>
+      
+      <!-- Updated Buttons -->
+      <div class="card-buttons" style="display: flex; gap: 8px; margin-top: 10px;">
+        <button class="btn-secondary add-to-cart" style="flex: 1; cursor: pointer;">Add to Cart</button>
+        <button class="btn-primary buy-now-btn" style="flex: 1; cursor: pointer;">Buy Now</button>
+      </div>
+    </div>
+
+    <!-- Product Card 4 -->
+    <div class="product-card" data-category="handbags">
+      <div class="product-img">
+        <img src="image15.png" alt="Bags" width="200" height="200">
+      </div>
+      <h3 class="product-title">Bags</h3>
+      <p class="product-price">Rs. 3,000</p>
+      
+      <!-- Updated Buttons -->
+      <div class="card-buttons" style="display: flex; gap: 8px; margin-top: 10px;">
+        <button class="btn-secondary add-to-cart" style="flex: 1; cursor: pointer;">Add to Cart</button>
+        <button class="btn-primary buy-now-btn" style="flex: 1; cursor: pointer;">Buy Now</button>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+ <!-- Newsletter Section -->
+<section class="newsletter-section">
+  <h3>Get 5% Off Your First Order</h3>
+  <p>Subscribe to our newsletter for exclusive deals and updates.</p>
+  
+  <form action="https://formspree.io/f/xvkplwdy" method="POST" class="newsletter-box">
+    <input type="email" name="email" placeholder="Enter your email address..." required>
+    <button type="submit">Subscribe</button>
+  </form>
+</section>
+
+ <!-- Main Footer Section -->
+<footer class="footer">
+  <div class="footer-container">
+    
+    <!-- Column 1: Brand Logo & About -->
+    <div class="footer-col brand-col">
+      <div class="footer-logo">
+        <a href="index.html" class="logo-design-1">
+          <span class="brand-first">MY</span>
+          <span class="brand-second">STORE</span>
+        </a>
+      </div>
+      <div class="about-text">
+        <h3>About Us</h3>
+        <p>Your one-stop shop for premium quality curated fashion & lifestyle products at best prices.</p>
+      </div>
+    </div>
+
+    <!-- Column 2: Quick Links -->
+    <div class="footer-col">
+      <h3>Quick Links</h3>
+      <ul class="quick-links">
+        <li><a href="index.html">Home <i class="fa-solid fa-chevron-right"></i></a></li>
+        <li><a href="clothing.html">Shop All <i class="fa-solid fa-chevron-right"></i></a></li>
+        
+        <!-- Dropdown item -->
+        <li class="has-dropdown">
+          <a href="javascript:void(0)" class="dropdown-toggle">
+            Categories <i class="fa-solid fa-chevron-right arrow-icon"></i>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="clothing.html">Clothing</a></li>
+            <li><a href="handbags.html">Handbags</a></li>
+            <li><a href="jewelry.html">Jewelry</a></li>
+          </ul>
+        </li>
+
+        <li><a href="contact.html">Contact Us <i class="fa-solid fa-chevron-right"></i></a></li>
+      </ul>
+    </div>
+
+    <!-- Column 3: Contact Info -->
+    <div class="footer-col">
+      <h3>Contact Info</h3>
+      <div class="contact-item">
+        <i class="fa-regular fa-envelope icon"></i>
+        <div>
+          <span>Email:</span>
+          <p>contact@premiumstore.com</p>
+        </div>
+      </div>
+      <div class="contact-item">
+        <i class="fa-solid fa-phone icon"></i>
+        <div>
+          <span>Phone:</span>
+          <p>+92 300 1234567</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Column 4: Follow Us -->
+    <div class="footer-col">
+      <h3>Follow Us</h3>
+      <div class="social-icons">
+        <a href="https://instagram.com" target="_blank" class="social-btn"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://facebook.com" target="_blank" class="social-btn"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://pinterest.com" target="_blank" class="social-btn"><i class="fa-brands fa-pinterest-p"></i></a>
+        <a href="https://twitter.com" target="_blank" class="social-btn"><i class="fa-brands fa-twitter"></i></a>
+      </div>
+    </div>
+
+  </div> <!-- footer-container bracket fixed -->
+
+  <!-- Copyright Strip -->
+  <div class="copyright">
+    <p>&copy; 2026 MyStore. All Rights Reserved.</p>
+  </div>
+</footer>
+</body>
+</html>
